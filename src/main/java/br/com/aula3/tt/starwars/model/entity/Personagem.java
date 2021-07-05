@@ -2,8 +2,8 @@ package br.com.aula3.tt.starwars.model.entity;
 
 public class Personagem {
     private String name;
-    private Integer height;
-    private Integer mass;
+    private String height;
+    private String mass;
     private String hair_color;
     private String skin_color;
     private String eye_color;
@@ -15,7 +15,7 @@ public class Personagem {
     public Personagem() {
     }
 
-    public Personagem(String name, Integer height, Integer mass, String hair_color, String skin_color, String eye_color, String birth_year, String gender, String homeworld, String species) {
+    public Personagem(String name, String height, String mass, String hair_color, String skin_color, String eye_color, String birth_year, String gender, String homeworld, String species) {
         this.name = name;
         this.height = height;
         this.mass = mass;
@@ -32,11 +32,11 @@ public class Personagem {
         return name;
     }
 
-    public Integer getHeight() {
+    public String getHeight() {
         return height;
     }
 
-    public Integer getMass() {
+    public String getMass() {
         return mass;
     }
 
