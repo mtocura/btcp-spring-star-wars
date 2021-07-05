@@ -14,7 +14,7 @@ import java.util.List;
 
 @Repository
 public class PersonagemRepository {
-    private static final File FILE = new File("star-wars.json");
+    private static final File FILE = new File("starwars.json");
 
     @Autowired
     private ObjectMapper mapper;
